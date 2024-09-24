@@ -22,11 +22,6 @@ body{
 img {
 	max-width: 100%;
 }
-/* LAYOUT */
-.container {
-	max-width: 2000px;
-	margin: 0 auto;
-}
 
 /* HEADER */
 .main-header{
@@ -50,3 +45,19 @@ img {
     gap: 25px;
     color: white;
    }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 5%;
+    justify-content: center;
+    
+}
+.col-13{ 
+    width:calc(100%/3) ;
+    padding: 0.5%;
+
+}
+.img-items{
+    width: 600px;
+}
