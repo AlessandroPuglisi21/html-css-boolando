@@ -27,7 +27,7 @@ img {
 /* HEADER */
 .main-header{
     padding: 12px 80px;
-    background-color: rgb(206, 119, 38);
+    background-color: rgb(255, 94, 0);
 }
 .navbar{
     display: flex;
@@ -123,6 +123,12 @@ img {
 .page-footer{
     background-color: #23272a;
     color: white;
-    padding: 80px 0 40px;
+    padding: 80px 40px;
 }
-
+.legal-info{
+    font-size: 12px;
+}
+.footer-icon{
+    padding:1%;
+    height: 30px;
+}
