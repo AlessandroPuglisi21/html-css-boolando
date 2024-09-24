@@ -45,6 +45,7 @@ img {
     flex-wrap: wrap;
     gap: 25px;
     color: white;
+    font-weight: bold;
    }
 .row{
     display: flex;
@@ -113,3 +114,15 @@ img {
     padding: 5px 15px;
     font-size: 22px;
 }
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 100%;
+}
+.page-footer{
+    background-color: #23272a;
+    color: white;
+    padding: 80px 0 40px;
+}
+
