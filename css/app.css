@@ -19,3 +19,34 @@ a {
 body{
     background-color: #ffffff;
 }
+img {
+	max-width: 100%;
+}
+/* LAYOUT */
+.container {
+	max-width: 2000px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+.main-header{
+    padding: 12px 80px;
+    background-color: rgb(206, 119, 38);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+   }
+   .container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-size: cover;
+}
+.main-menu , .menu-icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: white;
+   }
